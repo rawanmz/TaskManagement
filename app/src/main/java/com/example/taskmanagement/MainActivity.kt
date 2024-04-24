@@ -32,8 +32,7 @@ class MainActivity : ComponentActivity() {
             val bottomSheetNavigator = rememberBottomSheetNavigator()
             val navController = rememberNavController(bottomSheetNavigator)
             TaskManagementTheme {
-                //SetupNavGraph(navController)
-                StartService(this)
+                SetupNavGraph(navController)
             }
         }
     }
